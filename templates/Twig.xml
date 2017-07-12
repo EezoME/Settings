@@ -1,0 +1,7 @@
+<templateSet group="Twig">
+  <template name="com" value="{% comment %} $END$ {% endcomment %}" description="comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>
