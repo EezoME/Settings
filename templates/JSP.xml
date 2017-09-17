@@ -1,0 +1,27 @@
+<templateSet group="JSP">
+  <template name="sc" value="&lt;% $END$ %&gt;" description="Scriptlet" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="dc" value="&lt;%! $END$ %&gt;" description="JSP declaration" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="cc" value="&lt;%-- $END$ --%&gt;" description="JSP comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="dd" value="&lt;%@ $END$ %&gt;" description="JSP Directive" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="xc" value="&lt;%= $END$ %&gt;" description="JSP Expression" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+</templateSet>
