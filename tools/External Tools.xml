@@ -2,7 +2,7 @@
   <tool name="cmd" description="C M D" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="C:\Program Files\Git\bin\bash.exe" />
-      <option name="PARAMETERS" value="uglifyjs --compress unused=false --warn -o src/main/resources/public/scripts/main.min.js -- src/main/resources/public/scripts/controllers/*.js src/main/resources/public/scripts/custom/*.js" />
+      <option name="PARAMETERS" value="uglifyjs --compress unused=false -m reserved=['$scope','$window','$http'] --warn -o src/main/resources/public/scripts/main.min.js -- src/main/resources/public/scripts/controllers/*.js src/main/resources/public/scripts/custom/*.js" />
       <option name="WORKING_DIRECTORY" value="E:/!Projects/SpringCliConWeb" />
     </exec>
   </tool>
