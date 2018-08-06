@@ -6,7 +6,7 @@
       <option name="WORKING_DIRECTORY" value="E:/!Projects/SpringCliConWebServer" />
     </exec>
   </tool>
-  <tool name="cmd RSB" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="cmd RSB" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="C:\Program Files\Git\bin\bash.exe" />
       <option name="PARAMETERS" value="uglifyjs --compress unused=false -m reserved=['$scope','$window','$http'] --warn -o src/main/resources/public/scripts/main.min.js -- src/main/resources/public/scripts/controllers/*.js src/main/resources/public/scripts/custom/*.js" />
