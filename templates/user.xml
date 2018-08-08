@@ -1,15 +1,15 @@
 <templateSet group="user">
-  <template name="noe" value="&#10;loggingController.nullOrEmptyLog(logger, &quot;method&quot;, &quot;Boiler chipId&quot;);" toReformat="true" toShortenFQNames="true">
+  <template name="noe" value="&#10;loggingController.nullOrEmptyLog(logger, &quot;method&quot;, &quot;Boiler chipId&quot;);" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="ierr" value="&#10;loggingController.invalidParamsErrorLog(logger, &quot;method&quot;, request, &quot;userId&quot;);" toReformat="true" toShortenFQNames="true">
+  <template name="ierr" value="&#10;loggingController.invalidParamsErrorLog(logger, &quot;method&quot;, request, &quot;userId&quot;);" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="iwarn" value="&#10;loggingController.invalidParamsWarnLog(logger, &quot;method&quot;, request, &quot;calcPumpProd&quot;);" toReformat="true" toShortenFQNames="true">
+  <template name="iwarn" value="&#10;loggingController.invalidParamsWarnLog(logger, &quot;method&quot;, request, &quot;calcPumpProd&quot;);" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
