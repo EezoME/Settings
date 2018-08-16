@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '...\src\main\java\net\mlksat\wpit\clicon\controllers\RoomController.java [clicon]'" />
-    <option name="defaultScopeName" value="File '...\src\main\java\net\mlksat\wpit\clicon\controllers\RoomController.java [clicon]'" />
-    <option name="SEARCH_SCOPE" value="File '...\src\main\java\net\mlksat\wpit\clicon\controllers\RoomController.java [clicon]'" />
+    <option name="customScope" value="Project 'clicon'" />
+    <option name="defaultScopeName" value="Project 'clicon'" />
+    <option name="SEARCH_SCOPE" value="Project 'clicon'" />
   </component>
 </application>
