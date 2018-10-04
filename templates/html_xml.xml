@@ -4,7 +4,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="ww" value="{{entity_boiler.$END$}}" toReformat="false" toShortenFQNames="true">
+  <template name="ww" value="{{entity_boiler.$END$}}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
