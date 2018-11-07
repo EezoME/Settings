@@ -9,7 +9,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="ms" value="#{msg['$END$']}" toReformat="false" toShortenFQNames="true">
+  <template name="ms" value="#{msg['$END$']}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="JSP" value="true" />
